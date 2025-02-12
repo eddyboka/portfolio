@@ -30,7 +30,7 @@
 }
 .avatar {
   background-image: url(../images/profile.png);
-  width: 50%;
+  width: 150px;
   height: 150px;
   margin: auto;
   background-position: center;
