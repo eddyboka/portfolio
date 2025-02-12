@@ -1,0 +1,40 @@
+.layout {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+}
+.sidebar {
+  width: 25%;
+}
+.main {
+  width: 75%;
+}
+.hero {
+  height: 100vh;
+  background-image: url(../images/hero-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero div {
+  height: 25%;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.avatar {
+  background-image: url(../images/profile.png);
+  width: 50%;
+  height: 150px;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100px;
+}
